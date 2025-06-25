@@ -1,169 +1,166 @@
-// Projects data - easily add new projects here
+// Projects Data
 const projects = [
   {
-    id: 1,
-    title: "E-Commerce Platform",
+    title: "E-Commerce Dashboard",
     description:
-      "A full-featured e-commerce solution with cart, payment processing, and admin dashboard.",
-    category: "web",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      "A comprehensive dashboard for e-commerce analytics with real-time data visualization.",
     image:
-      "https://images.unsplash.com/photo-1607082350899-7e105aa886ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    technologies: ["React", "Chart.js", "Node.js"],
+    link: "https://example.com/project1",
   },
   {
-    id: 2,
-    title: "Task Management App",
+    title: "Travel Blog Platform",
     description:
-      "Productivity application for managing tasks with drag & drop interface and real-time updates.",
-    category: "mobile",
-    tags: ["React Native", "Firebase", "Redux"],
+      "A responsive travel blog platform with user authentication and content management.",
     image:
-      "https://images.unsplash.com/photo-1586282391129-76a746f25aa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    technologies: ["JavaScript", "Express", "MongoDB"],
+    link: "https://example.com/project2",
   },
   {
-    id: 3,
-    title: "Finance Dashboard",
+    title: "Weather Forecast App",
     description:
-      "Interactive dashboard for visualizing financial data with charts and customizable widgets.",
-    category: "web",
-    tags: ["Vue.js", "D3.js", "Express", "Chart.js"],
+      "Real-time weather application with 5-day forecast using weather API integration.",
     image:
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+      "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=775&q=80",
+    technologies: ["JavaScript", "API Integration", "CSS"],
+    link: "https://example.com/project3",
   },
   {
-    id: 4,
-    title: "Travel Booking UI",
+    title: "Task Management System",
     description:
-      "Modern UI design for a travel booking application with smooth animations and transitions.",
-    category: "design",
-    tags: ["Figma", "UI Design", "UX Research", "Prototyping"],
+      "A Kanban-style task management application with drag-and-drop functionality.",
     image:
-      "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=815&q=80",
+    technologies: ["React", "Redux", "Firebase"],
+    link: "https://example.com/project4",
   },
   {
-    id: 5,
-    title: "Health Tracker Mobile App",
+    title: "Restaurant Booking System",
     description:
-      "Mobile application for tracking health metrics, workouts, and nutrition plans.",
-    category: "mobile",
-    tags: ["Flutter", "Firebase", "Health API", "Bloc"],
+      "Online reservation system for restaurants with table management and notifications.",
+    image:
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    technologies: ["JavaScript", "Node.js", "MySQL"],
+    link: "https://example.com/project5",
+  },
+  {
+    title: "Fitness Tracker App",
+    description:
+      "Mobile-responsive fitness application with workout plans and progress tracking.",
     image:
       "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-  },
-  {
-    id: 6,
-    title: "Real Estate Platform",
-    description:
-      "Comprehensive platform for property listings with advanced search and virtual tours.",
-    category: "web",
-    tags: ["React", "Google Maps API", "Node.js", "PostgreSQL"],
-    image:
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    technologies: ["React Native", "Firebase", "CSS"],
+    link: "https://example.com/project6",
   },
 ];
 
-// Function to render projects
-function renderProjects(filter = "all") {
-  const container = document.getElementById("projects-container");
-  container.innerHTML = "";
+// Generate projects
+const projectsContainer = document.getElementById("projects-container");
 
-  const filteredProjects =
-    filter === "all"
-      ? projects
-      : projects.filter((project) => project.category === filter);
-
-  filteredProjects.forEach((project) => {
-    const projectElement = document.createElement("div");
-    projectElement.className = "project-card";
-    projectElement.innerHTML = `
-                    <div class="project-img">
-                        <img src="${project.image}" alt="${project.title}">
+projects.forEach((project) => {
+  const projectElement = document.createElement("div");
+  projectElement.className = "project-card";
+  projectElement.innerHTML = `
+                <img src="${project.image}" alt="${
+    project.title
+  }" class="project-img">
+                <div class="project-content">
+                    <h3>${project.title}</h3>
+                    <p>${project.description}</p>
+                    <div class="tech-stack">
+                        ${project.technologies
+                          .map((tech) => `<span class="tech">${tech}</span>`)
+                          .join("")}
                     </div>
-                    <div class="project-info">
-                        <h3>${project.title}</h3>
-                        <p>${project.description}</p>
-                        <div class="project-tags">
-                            ${project.tags
-                              .map(
-                                (tag) =>
-                                  `<span class="project-tag">${tag}</span>`
-                              )
-                              .join("")}
-                        </div>
-                    </div>
-                `;
-    container.appendChild(projectElement);
+                    <a href="${
+                      project.link
+                    }" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            `;
+  projectsContainer.appendChild(projectElement);
+});
+
+// Form submission
+const contactForm = document.getElementById("contactForm");
+contactForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+  alert("Thank you for your message! I will get back to you soon.");
+  contactForm.reset();
+});
+
+// Mobile menu toggle
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
+// Close mobile menu when clicking on a link
+document.querySelectorAll(".nav-links a").forEach((link) => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("active");
   });
-}
+});
 
-// Initialize projects
-document.addEventListener("DOMContentLoaded", function () {
-  renderProjects();
-
-  // Filter functionality
-  const filterButtons = document.querySelectorAll(".filter-btn");
-  filterButtons.forEach((button) => {
-    button.addEventListener("click", function () {
-      // Remove active class from all buttons
-      filterButtons.forEach((btn) => btn.classList.remove("active"));
-
-      // Add active class to clicked button
-      this.classList.add("active");
-
-      // Filter projects
-      const filter = this.getAttribute("data-filter");
-      renderProjects(filter);
-    });
-  });
-
-  // Mobile menu toggle
-  const menuToggle = document.querySelector(".menu-toggle");
-  const navLinks = document.querySelector(".nav-links");
-
-  menuToggle.addEventListener("click", function () {
-    navLinks.classList.toggle("active");
-  });
-
-  // Smooth scrolling for navigation links
-  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-    anchor.addEventListener("click", function (e) {
-      e.preventDefault();
-
-      const targetId = this.getAttribute("href");
-      const targetElement = document.querySelector(targetId);
-
-      window.scrollTo({
-        top: targetElement.offsetTop - 70,
-        behavior: "smooth",
-      });
-
-      // Close mobile menu if open
-      navLinks.classList.remove("active");
-    });
-  });
-
-  // Form submission handling
-  const contactForm = document.getElementById("contactForm");
-  if (contactForm) {
-    contactForm.addEventListener("submit", function (e) {
-      // In a real implementation, you would handle form submission to your backend
-      // This example uses Formspree as mentioned in the form action
-      // You can replace with your own endpoint
-
-      // Show success message
-      e.preventDefault();
-      alert("Thank you for your message! I will get back to you soon.");
-      contactForm.reset();
-    });
+// Navbar scroll animation
+const header = document.getElementById("header");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 50) {
+    header.classList.add("shrink");
+  } else {
+    header.classList.remove("shrink");
   }
+});
 
-  // Back to top button
-  const backToTop = document.querySelector(".back-to-top");
-  window.addEventListener("scroll", function () {
-    if (window.pageYOffset > 300) {
-      backToTop.style.display = "inline-block";
-    } else {
-      backToTop.style.display = "none";
+// Smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute("href"));
+    window.scrollTo({
+      top: target.offsetTop - 80,
+      behavior: "smooth",
+    });
+  });
+});
+
+// Scroll animations
+const observerOptions = {
+  threshold: 0.1,
+};
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
     }
   });
+}, observerOptions);
+
+document.querySelectorAll(".timeline-item, .project-card").forEach((item) => {
+  observer.observe(item);
+});
+
+// Dark Mode Toggle
+const themeToggle = document.getElementById("themeToggle");
+const body = document.body;
+
+// Check for saved theme preference
+const savedTheme = localStorage.getItem("theme");
+if (savedTheme === "dark") {
+  body.classList.add("dark-mode");
+}
+
+themeToggle.addEventListener("click", () => {
+  body.classList.toggle("dark-mode");
+
+  // Save theme preference
+  if (body.classList.contains("dark-mode")) {
+    localStorage.setItem("theme", "dark");
+  } else {
+    localStorage.setItem("theme", "light");
+  }
 });
