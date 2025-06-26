@@ -780,7 +780,7 @@ header.shrink .nav-links a {
 
 .project-img {
   width: 100%;
-  height: 220px;
+  /* height: 220px; */
   object-fit: cover;
   transition: all 0.3s ease;
 }

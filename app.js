@@ -1,58 +1,50 @@
 // Projects Data
 const projects = [
   {
-    title: "E-Commerce Dashboard",
+    title: "SHT International",
     description:
-      "A comprehensive dashboard for e-commerce analytics with real-time data visualization.",
-    image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-    technologies: ["React", "Chart.js", "Node.js"],
-    link: "https://example.com/project1",
+      "WordPress website built for a supplement brand, focused on clean design, responsiveness, and product visibility.",
+    image: "assets/sht-international.jpg",
+    technologies: ["WordPress"],
+    link: "https://shtinternational.com/",
   },
   {
-    title: "Travel Blog Platform",
+    title: "Students Dashboard",
     description:
-      "A responsive travel blog platform with user authentication and content management.",
-    image:
-      "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-    technologies: ["JavaScript", "Express", "MongoDB"],
-    link: "https://example.com/project2",
+      "A students dashboard where students can sign up create accounts, login, submit applications and can view thier application's status. Applications data will be saved in Supabase",
+    image: "assets/students-dashboard.jpg",
+    technologies: ["HTML", "CSS", "JavaScript", "Supabase"],
+    link: "https://itssadiq.github.io/Students-Dashboard/index.html",
   },
   {
-    title: "Weather Forecast App",
+    title: "Admin Dashboard",
     description:
-      "Real-time weather application with 5-day forecast using weather API integration.",
-    image:
-      "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=775&q=80",
-    technologies: ["JavaScript", "API Integration", "CSS"],
-    link: "https://example.com/project3",
+      "Admin Dashboard featuring Supabase as backend. Admins can view and update students applications and can update status. Master Admin has a right to add/delte other admins.",
+    image: "assets/admin-dashboard.jpg",
+    technologies: ["HTML", "CSS", "JavaScript", "Supabase"],
+    link: "https://itssadiq.github.io/Admin-Dashboard/index.html",
   },
   {
-    title: "Task Management System",
-    description:
-      "A Kanban-style task management application with drag-and-drop functionality.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=815&q=80",
-    technologies: ["React", "Redux", "Firebase"],
-    link: "https://example.com/project4",
+    title: "Tech Web",
+    description: "A fully responsive website built with collaboration.",
+    image: "assets/Tech-web.jpg",
+    technologies: ["HTML", "CSS", "Bootstrap", "Figma"],
+    link: "https://tech-joint.netlify.app/",
   },
   {
-    title: "Restaurant Booking System",
-    description:
-      "Online reservation system for restaurants with table management and notifications.",
-    image:
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-    technologies: ["JavaScript", "Node.js", "MySQL"],
-    link: "https://example.com/project5",
+    title: "Notes App",
+    description: "Notes App featuring CRUD operations with localStorage.",
+    image: "assets/Notes-App.jpg",
+    technologies: ["HTML", "CSS", "JavaScript", "DayJS"],
+    link: "https://itssadiq.github.io/Notes-App/",
   },
   {
-    title: "Fitness Tracker App",
+    title: "Todo List App",
     description:
-      "Mobile-responsive fitness application with workout plans and progress tracking.",
-    image:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-    technologies: ["React Native", "Firebase", "CSS"],
-    link: "https://example.com/project6",
+      "Todo List app built for mobiles only with bundles of features like double-tap for delete/mark complete, automatic category generation and much more.",
+    image: "assets/Todo-list-app.jpg",
+    technologies: ["HTML", "CSS", "JavaScript", "DayJS"],
+    link: "https://itssadiq.github.io/Todo-list-app/",
   },
 ];
 
