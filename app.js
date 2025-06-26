@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Students Dashboard",
     description:
-      "A students dashboard where students can sign up create accounts, login, submit applications and can view thier application's status. Applications data will be saved in Supabase",
+      "Developed a web platform enabling students to sign up, log in, submit applications, and track their application status in real-time. Integrated with Supabase for secure data storage and management.",
     image: "assets/students-dashboard.jpg",
     technologies: ["HTML", "CSS", "JavaScript", "Supabase"],
     link: "https://itssadiq.github.io/Students-Dashboard/index.html",
@@ -19,21 +19,23 @@ const projects = [
   {
     title: "Admin Dashboard",
     description:
-      "Admin Dashboard featuring Supabase as backend. Admins can view and update students applications and can update status. Master Admin has a right to add/delte other admins.",
+      "Built a robust admin panel powered by Supabase, enabling admins to view and update student applications and statuses. Master Admin has exclusive permissions to add or remove other admins, ensuring secure and efficient management.",
     image: "assets/admin-dashboard.jpg",
     technologies: ["HTML", "CSS", "JavaScript", "Supabase"],
     link: "https://itssadiq.github.io/Admin-Dashboard/index.html",
   },
   {
     title: "Tech Web",
-    description: "A fully responsive website built with collaboration.",
+    description:
+      "A fully responsive website built in collaboration with Talha(Fellow Developer).",
     image: "assets/Tech-web.jpg",
     technologies: ["HTML", "CSS", "Bootstrap", "Figma"],
     link: "https://tech-joint.netlify.app/",
   },
   {
     title: "Notes App",
-    description: "Notes App featuring CRUD operations with localStorage.",
+    description:
+      "Developed a Notes application with full CRUD functionality, allowing users to create, read, update, and delete notes. Utilized  localStorage for seamless data persistence in the browser.",
     image: "assets/Notes-App.jpg",
     technologies: ["HTML", "CSS", "JavaScript", "DayJS"],
     link: "https://itssadiq.github.io/Notes-App/",
@@ -41,7 +43,7 @@ const projects = [
   {
     title: "Todo List App",
     description:
-      "Todo List app built for mobiles only with bundles of features like double-tap for delete/mark complete, automatic category generation and much more.",
+      "Developed a mobile-optimized Todo List app with advanced features, including double-tap to delete or mark tasks complete and automatic category generation. Built using HTML, CSS, and JavaScript for a seamless, feature-rich user experience.",
     image: "assets/Todo-list-app.jpg",
     technologies: ["HTML", "CSS", "JavaScript", "DayJS"],
     link: "https://itssadiq.github.io/Todo-list-app/",
