@@ -35,7 +35,7 @@ const projects = [
   {
     title: "Notes App",
     description:
-      "Developed a Notes application with full CRUD functionality, allowing users to create, read, update, and delete notes. Utilized  localStorage for seamless data persistence in the browser.",
+      "Developed a Notes application with comprehensive note management features, allowing users to create, view and delete notes. Utilized localStorage for seamless data persistence in the browser.",
     image: "assets/Notes-App.jpg",
     technologies: ["HTML", "CSS", "JavaScript", "DayJS"],
     link: "https://itssadiq.github.io/Notes-App/",
@@ -43,7 +43,7 @@ const projects = [
   {
     title: "Todo List App",
     description:
-      "Developed a mobile-optimized Todo List app with advanced features, including double-tap to delete or mark tasks complete and automatic category generation. Built using HTML, CSS, and JavaScript for a seamless, feature-rich user experience.",
+      "Developed a mobile-optimized Todo List app with advanced features, including double-tap to delete or mark tasks complete and dynamic category generation. Built using HTML, CSS, and JavaScript for a seamless, feature-rich user experience.",
     image: "assets/Todo-list-app.jpg",
     technologies: ["HTML", "CSS", "JavaScript", "DayJS"],
     link: "https://itssadiq.github.io/Todo-list-app/",
