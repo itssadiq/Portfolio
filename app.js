@@ -48,6 +48,22 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "DayJS"],
     link: "https://itssadiq.github.io/Todo-list-app/",
   },
+  {
+    title: "Weather App",
+    description:
+      "A fully responsive web application built using HTML, CSS, and JavaScript. It provides users with real-time weather data, including an 8-hour forecast for the current day and a 7-day outlook. Designed with a clean, user-friendly interface, the app adapts seamlessly across mobile and desktop devices. ",
+    image: "assets/Weather-app.jpg",
+    technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
+    link: "https://weather-app-black-theta-59.vercel.app/",
+  },
+  {
+    title: "Quiz App",
+    description:
+      "A fully responsive quiz application built with HTML, CSS, and JavaScript. It features multiple quiz categories, dynamic question loading using a free quiz API, and an intuitive user interface for an engaging experience across all devices.",
+    image: "assets/Quiz-app.jpg",
+    technologies: ["HTML", "CSS", "JavaScript", "Quiz API"],
+    link: "https://quizz-app-six-theta.vercel.app/",
+  },
 ];
 
 // Generate projects
