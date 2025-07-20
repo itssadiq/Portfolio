@@ -433,8 +433,8 @@ header.shrink .nav-links a {
 
 .profile-img-container {
   position: relative;
-  width: 320px;
-  height: 320px;
+  width: 350px;
+  height: 350px;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   overflow: hidden;
   box-shadow: var(--shadow-hover);
@@ -1324,8 +1324,8 @@ footer {
   }
 
   .profile-img-container {
-    width: 260px;
-    height: 260px;
+    width: 280px;
+    height: 280px;
   }
 
   .hero-btns {
