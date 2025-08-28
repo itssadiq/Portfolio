@@ -1,10 +1,18 @@
 // Projects Data
 const projects = [
   {
-    title: "SHT International",
+    title: "shtinternational.com",
     description:
-      "WordPress website built for a supplement brand, focused on clean design, responsiveness, and product visibility.",
+      "Developed a live E-Commerce site using WordPress and WooCommerce, ensuring mobile responsiveness and overall user experience with secure checkout.",
     image: "assets/sht-international.jpg",
+    technologies: ["WordPress"],
+    link: "https://shtinternational.com/",
+  },
+  {
+    title: "unzil.com",
+    description:
+      "A WordPress based live E-Commerce website with responsive design, product listings, cart functionality and secure checkout, enhancing the client's online presence and customer experience.",
+    image: "assets/unzil.jpg",
     technologies: ["WordPress"],
     link: "https://shtinternational.com/",
   },
