@@ -14,7 +14,7 @@ const projects = [
       "A WordPress based live E-Commerce website with responsive design, product listings, cart functionality and secure checkout, enhancing the client's online presence and customer experience.",
     image: "assets/unzil.jpg",
     technologies: ["WordPress"],
-    link: "https://shtinternational.com/",
+    link: "https://unzil.com/",
   },
   {
     title: "Students Dashboard",
