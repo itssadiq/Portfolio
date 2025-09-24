@@ -9,12 +9,36 @@ const projects = [
     link: "https://shtinternational.com/",
   },
   {
-    title: "unzil.com",
+    title: "unibridgegroup.co.uk",
     description:
-      "A WordPress based live E-Commerce website with responsive design, product listings, cart functionality and secure checkout, enhancing the client's online presence and customer experience.",
-    image: "assets/unzil.jpg",
+      "Developed a responsive WordPress site for a UK education organization optimized speed, usability and integrated custom section for services and news.",
+    image: "assets/unibridge.jpg",
     technologies: ["WordPress"],
-    link: "https://unzil.com/",
+    link: "https://www.unibridgegroup.co.uk/",
+  },
+  {
+    title: "sailseeker.io",
+    description:
+      "Designing a responsive WordPress site with modern booking system and Google login for a marine client focusing on UI/UX and SEO.(Under Construction)",
+    image: "assets/sailseeker.jpg",
+    technologies: ["WordPress"],
+    link: "https://sailseeker.io/",
+  },
+  {
+    title: "saaptvsp.org",
+    description:
+      "Created a responsive WordPress site for an NGO with dynamic sections for projects, stories and donations mainly focused on spreading awareness.",
+    image: "assets/saaptvsp.jpg",
+    technologies: ["WordPress"],
+    link: "https://saaptvsp.org/",
+  },
+  {
+    title: "taskeenherbals.com",
+    description:
+      "Delivered a responsive WordPress e-commerce site wiht product catalog, secure checkout and SEO optimization. A minimal site perfect for a mini store.",
+    image: "assets/taskeenherbals.jpg",
+    technologies: ["WordPress"],
+    link: "https://taskeenherbals.com/",
   },
   {
     title: "Students Dashboard",
